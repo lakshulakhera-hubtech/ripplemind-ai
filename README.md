@@ -48,7 +48,7 @@ Streamlit UI (`app.py`) → Python (`falkordb` client) → FalkorDB Cloud graph 
 2. Create a free instance on FalkorDB Cloud (https://app.falkordb.cloud).
 3. Clone and install:
 ```
-git clone https://github.com/YOUR_USERNAME/ripplemind-ai.git
+git clone https://github.com/lakshulakhera-hubtech/ripplemind-ai.git
 cd ripplemind-ai
 python -m pip install -r requirements.txt
 ```
