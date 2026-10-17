@@ -86,4 +86,4 @@ Not tested: database connection failure handling and graph changes after seeding
 - No live deployment. The app runs locally.
 
 ## AI-tool disclosure
-This project was built with help from Claude (Anthropic), which generated most of the code (app.py, seed_graph.py, test files) and guided the setup step by step. I (EDIT THIS: write honestly what you did) set up the FalkorDB Cloud instance, configured credentials, ran the seed script, ran the app, and checked the results against hand-calculated numbers.
+This project was built with help from Claude (Anthropic), which generated most of the code (app.py, seed_graph.py, test_connection.py) and the README draft, and guided the setup step by step. I set up the FalkorDB Cloud instance, configured the credentials in a local .env file (not uploaded), ran the seed script and the app, tested several components in the app, and compared the results with expected numbers that were calculated from the seed data with Claude's help. I did not write the code from scratch.
